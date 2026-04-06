@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Nodejs Custom Firewall",
+  "permissions": ["scripting", "storage", "webRequest"],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
